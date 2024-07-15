@@ -35,9 +35,11 @@ What things you need to install the software and how to install them:
 ### Installing
 A step by step series of examples that tell you how to get a development environment running:
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/TSTP-Enterprises/TSTP-Auto_Continue.git
+Clone the repo:
+
+    git clone https://github.com/TSTP-Enterprises/TSTP-Auto_Continue.git
+
+Go to repo folder
 
     cd TSTP-Auto_Continue
 
@@ -61,13 +63,11 @@ Step 1: Download and Install
 
 Instructions on how to download the software and any required tools or libraries:
 
-bash
-
-git clone https://github.com/TSTP-Enterprises/TSTP-Auto_Continue.git
-cd TSTP-Auto_Continue
-python -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
+    git clone https://github.com/TSTP-Enterprises/TSTP-Auto_Continue.git
+    cd TSTP-Auto_Continue
+    python -m venv venv
+    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+    pip install -r requirements.txt
 
 Step 2: Set Up Your Project
 
@@ -79,9 +79,7 @@ Step 4: Running Tests
 
 How to run the automated tests for this system:
 
-bash
-
-pytest
+    pytest
 
 Step 5: Deployment
 
@@ -105,9 +103,7 @@ License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 Acknowledgments
 
-    Hat tip to anyone whose code was used
-    Inspiration
-    etc.
+    TSTP/YourPST
 
 Support and Documentation
 
