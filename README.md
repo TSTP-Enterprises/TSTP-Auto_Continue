@@ -81,23 +81,6 @@ How to run the automated tests for this system:
 
     pytest
 
-Step 5: Deployment
-
-Notes on how to deploy the product on a live system.
-FAQ Section
-
-Frequently Asked Questions to help new users understand common issues or queries they might have.
-Contributing
-
-Encourage contributions and link to the CONTRIBUTING.md file:
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-Versioning
-
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-Authors
-
-    TSTP Enterprises - Initial work - TSTP-Enterprises
-
 License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
@@ -105,7 +88,6 @@ Acknowledgments
 
     TSTP/YourPST
 
-Support and Documentation
+Support
 
 For support, contact us at support@tstp.xyz.
-Find more detailed user manuals or documentation here.
