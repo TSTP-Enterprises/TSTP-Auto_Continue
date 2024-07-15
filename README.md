@@ -31,8 +31,6 @@ What things you need to install the software and how to install them:
     screeninfo
     Pillow
 
-arduino
-
 
 ### Installing
 A step by step series of examples that tell you how to get a development environment running:
@@ -40,10 +38,6 @@ A step by step series of examples that tell you how to get a development environ
 1. Clone the repo:
    ```bash
    git clone https://github.com/TSTP-Enterprises/TSTP-Auto_Continue.git
-
-    Navigate to the project directory:
-
-    bash
 
 cd TSTP-Auto_Continue
 
