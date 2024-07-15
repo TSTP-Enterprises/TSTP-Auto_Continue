@@ -39,24 +39,18 @@ A step by step series of examples that tell you how to get a development environ
    ```bash
    git clone https://github.com/TSTP-Enterprises/TSTP-Auto_Continue.git
 
-cd TSTP-Auto_Continue
+    cd TSTP-Auto_Continue
 
 Create and activate a virtual environment:
 
-bash
-
-python -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+    python -m venv venv
+    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 
 Install dependencies:
 
-bash
-
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run the application:
-
-bash
 
     python main.py
 
