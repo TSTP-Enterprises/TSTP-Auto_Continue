@@ -1,0 +1,9 @@
+PyQt5>=5.15.0
+opencv-python>=4.8.0
+mss>=9.0.0
+pyautogui>=0.9.54
+numpy>=1.24.0
+screeninfo>=0.8.1
+pynput>=1.7.7
+pytesseract>=0.3.10
+
