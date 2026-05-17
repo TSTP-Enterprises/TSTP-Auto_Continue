@@ -51,8 +51,7 @@ class InstallerWindow(tk.Tk):
             bg="#0f172a",
             fg="#cbd5e1",
             padx=12,
-            pady=(0, 10),
-        ).pack(fill=tk.X)
+        ).pack(fill=tk.X, pady=(0, 10))
 
         top = tk.Frame(self, bg="#e2e8f0")
         top.pack(fill=tk.X, padx=12, pady=12)
@@ -141,12 +140,28 @@ class InstallerWindow(tk.Tk):
                 return
 
             commands = [
-                [sys.executable, "-m", "pip", "install", "--upgrade", "pip"],
-                [sys.executable, "-m", "pip", "install", "-r", os.path.join(self._v2_dir, "requirements.txt")],
+                [sys.executable, "-m", "pip", "install", "--no-cache-dir", "--upgrade", "pip"],
+                [
+                    sys.executable,
+                    "-m",
+                    "pip",
+                    "install",
+                    "--no-cache-dir",
+                    "-r",
+                    os.path.join(self._v2_dir, "requirements.txt"),
+                ],
             ]
             if self._install_dev_var.get():
                 commands.append(
-                    [sys.executable, "-m", "pip", "install", "-r", os.path.join(self._v2_dir, "requirements-dev.txt")]
+                    [
+                        sys.executable,
+                        "-m",
+                        "pip",
+                        "install",
+                        "--no-cache-dir",
+                        "-r",
+                        os.path.join(self._v2_dir, "requirements-dev.txt"),
+                    ]
                 )
             if self._full_stack_var.get():
                 self._report_queue.put(

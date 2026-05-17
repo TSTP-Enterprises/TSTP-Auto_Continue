@@ -33,10 +33,9 @@ class StartupDependencyPrompt(tk.Toplevel):
             fg="#cbd5e1",
             font=("Segoe UI", 10),
             padx=14,
-            pady=(0, 10),
             anchor="w",
             justify=tk.LEFT,
-        ).pack(fill=tk.X)
+        ).pack(fill=tk.X, pady=(0, 10))
 
         body = tk.Frame(self, bg="#e2e8f0")
         body.pack(fill=tk.BOTH, expand=True, padx=12, pady=12)
